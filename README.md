@@ -25,4 +25,4 @@ Se optimizarán los hiperparámetros para el buen funcionamiento del modelo.
 Finalmente se creará una interfaz que permita que el usuario haga uso del modelo de machine learning en su máquina o en línea inclusive.
 
 
-En este proyecto se exploraron muchas herramientas muy interesantes, como lo son *Pandas, FastAPI, uvicorn, glob, matplotlib.pyplot, seaborn, scikit-surprise, numpy,* entre otras. Fue un proyecto bastante desafiante, pero a su vez bastante motivante y satisfactorio. 
+En este proyecto se exploraron muchas herramientas muy interesantes, como lo son *Pandas, FastAPI, uvicorn, glob, matplotlib.pyplot, seaborn, scikit-surprise, numpy,* entre otras. Fue un proyecto bastante desafiante, pero a su vez bastante motivante y satisfactorio. PI_01_DS_FT08_SoyHenry
