@@ -7,9 +7,13 @@ Consiste en la realización de un modelo de machine learning basado en las bases
 En la primera etapa de este proyecto se realizarán los protocolos de *extracción, tratamiento y carga de datos **(ETL)***. En esta se analizarán todos los datasets para identificar qué valores son innecesarios para la finalidad del proyecto, así mismo, se limpiarán los datasets, eliminando o modificando los datos que no serán utilizados en las siguientes dos etapas del proyecto. Finalmente se exportarán los datasets como archivos CSV limpios para tener un mejor manejo de la información requerida.
 Se hará el planteamiento de una API que responda a ciertas consultas necesarias para el usuario. 
 Se definirán 4 consultas para el desarrollo de la API que son:
+
 **1-** Película con mayor duración con filtros opcionales de AÑO, PLATAFORMA Y TIPO DE DURACIÓN. (la función debe llamarse *get_max_duration(year, platform, duration_type)*)
+
 **2-** Cantidad de películas por plataforma con un puntaje mayor a XX en determinado año (la función debe llamarse *get_score_count(platform, scored, year)*)
+
 **3-** Cantidad de películas por plataforma con filtro de PLATAFORMA. (La función debe llamarse *get_count_platform(platform)*)
+
 **4-** Actor que más se repite según plataforma y año. (La función debe llamarse *get_actor(platform, year)*)
 Esto con la finalidad de disponibilizar los datos de la empresa. Se hace uso del framework *FastAPI* para ejecutar esta parte de esta etapa.
 Con la información obtenida y se definirá una visualización de *fastAPI* que se ejecutará en un localhost.
